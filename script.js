@@ -29,14 +29,4 @@ if (reduceMotion) {
       });
     });
   }
-
-  const heroImage = document.querySelector(".hero-media img");
-  window.addEventListener(
-    "scroll",
-    () => {
-      const offset = Math.min(window.scrollY * 0.05, 22);
-      heroImage.style.transform = `scale(1.04) translateY(${offset}px)`;
-    },
-    { passive: true },
-  );
 }
