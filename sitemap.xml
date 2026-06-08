@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://limbopaper.it/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://limbopaper.it/it/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://limbopaper.it/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://limbopaper.it/es/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://limbopaper.it/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://limbopaper.it/it/" />
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://limbopaper.it/it/</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://limbopaper.it/it/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://limbopaper.it/en/" />

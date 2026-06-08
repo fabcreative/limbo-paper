@@ -61,7 +61,7 @@ function languageSwitcher(activeLocale) {
 function renderPage(locale, outputPath) {
   const language = languages[locale];
   const t = locales[locale];
-  const canonicalPath = outputPath === "/" ? languages.it.path : outputPath;
+  const canonicalPath = outputPath;
   const canonicalUrl = absoluteUrl(canonicalPath);
   const ogAlternates = Object.entries(languages)
     .filter(([key]) => key !== locale)
@@ -244,7 +244,7 @@ function renderPage(locale, outputPath) {
 }
 
 function renderSitemap() {
-  const urls = Object.values(languages).map((language) => language.path);
+  const urls = ["/", ...Object.values(languages).map((language) => language.path)];
   const alternates = Object.values(languages)
     .map(
       (language) =>
