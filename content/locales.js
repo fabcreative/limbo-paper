@@ -35,6 +35,7 @@ const sections = [
   { id: "filosofia", key: "philosophy" },
   { id: "materiali", key: "materials" },
   { id: "produzione", key: "production" },
+  { id: "prezzi", key: "pricing" },
   { id: "contatti", key: "contact" },
 ];
 
@@ -63,6 +64,7 @@ const locales = {
       philosophy: "Filosofia",
       materials: "Materiali",
       production: "Produzione",
+      pricing: "Prezzi",
       contact: "Contatti",
     },
     hero: {
@@ -95,7 +97,7 @@ const locales = {
       features: [
         "Superficie ultra opaca",
         "Grammatura della carta 160 GSM",
-        "Disponibile in 30 colori",
+        "Disponibile in 30 colori su richiesta",
         "Texture uniforme e seamless",
         "Qualità professionale da studio",
         "Produzione sostenibile",
@@ -120,6 +122,19 @@ const locales = {
         { title: "Anima", copy: "Cartone e supporti realizzati nella filiera locale." },
         { title: "Controllo", copy: "Verifica visiva, imballo e spedizione professionale." },
       ],
+    },
+    pricing: {
+      eyebrow: "Listino",
+      title: "Prezzi semplici e trasparenti.",
+      items: [
+        { name: "Pure White", price: "€60" },
+        { name: "Obsidian Black", price: "€60" },
+      ],
+      promo: {
+        label: "Promo",
+        name: "Confezione da 4 rotoli di carta",
+        price: "€200",
+      },
     },
     contact: {
       eyebrow: "Contatti",
@@ -155,6 +170,7 @@ const locales = {
       philosophy: "Philosophy",
       materials: "Materials",
       production: "Production",
+      pricing: "Pricing",
       contact: "Contact",
     },
     hero: {
@@ -187,7 +203,7 @@ const locales = {
       features: [
         "Ultra-matte surface",
         "160 GSM paper weight",
-        "Available in 30 colours",
+        "Available in 30 colours on request",
         "Even seamless texture",
         "Professional studio quality",
         "Sustainable production",
@@ -212,6 +228,19 @@ const locales = {
         { title: "Core", copy: "Cardboard cores and supports made within the local supply chain." },
         { title: "Control", copy: "Visual inspection, packing and professional dispatch." },
       ],
+    },
+    pricing: {
+      eyebrow: "Pricing",
+      title: "Simple, transparent pricing.",
+      items: [
+        { name: "Pure White", price: "€60" },
+        { name: "Obsidian Black", price: "€60" },
+      ],
+      promo: {
+        label: "Promo",
+        name: "Pack of 4 rolls of paper",
+        price: "€200",
+      },
     },
     contact: {
       eyebrow: "Contact",
@@ -247,6 +276,7 @@ const locales = {
       philosophy: "Filosofía",
       materials: "Materiales",
       production: "Producción",
+      pricing: "Precios",
       contact: "Contacto",
     },
     hero: {
@@ -279,7 +309,7 @@ const locales = {
       features: [
         "Superficie ultra mate",
         "Gramaje de papel 160 GSM",
-        "Disponible en 30 colores",
+        "Disponible en 30 colores bajo pedido",
         "Textura uniforme y seamless",
         "Calidad profesional de estudio",
         "Producción sostenible",
@@ -304,6 +334,19 @@ const locales = {
         { title: "Núcleo", copy: "Cartón y soportes fabricados dentro de la cadena local." },
         { title: "Control", copy: "Revisión visual, embalaje y envío profesional." },
       ],
+    },
+    pricing: {
+      eyebrow: "Precios",
+      title: "Precios simples y transparentes.",
+      items: [
+        { name: "Pure White", price: "€60" },
+        { name: "Obsidian Black", price: "€60" },
+      ],
+      promo: {
+        label: "Promo",
+        name: "Pack de 4 rollos de papel",
+        price: "€200",
+      },
     },
     contact: {
       eyebrow: "Contacto",
@@ -339,6 +382,7 @@ const locales = {
       philosophy: "理念",
       materials: "材料",
       production: "生产",
+      pricing: "价格",
       contact: "联系",
     },
     hero: {
@@ -371,7 +415,7 @@ const locales = {
       features: [
         "超哑光表面",
         "160 GSM 纸张克重",
-        "提供 30 种颜色",
+        "提供 30 种颜色，按需定制",
         "均匀无缝纹理",
         "专业影棚级品质",
         "可持续生产",
@@ -396,6 +440,19 @@ const locales = {
         { title: "纸芯", copy: "纸板芯和支撑材料来自本地供应链。" },
         { title: "质检", copy: "进行视觉检查、专业包装并安排发货。" },
       ],
+    },
+    pricing: {
+      eyebrow: "价格",
+      title: "简单透明的价格。",
+      items: [
+        { name: "Pure White", price: "€60" },
+        { name: "Obsidian Black", price: "€60" },
+      ],
+      promo: {
+        label: "促销",
+        name: "4 卷纸套装",
+        price: "€200",
+      },
     },
     contact: {
       eyebrow: "联系",

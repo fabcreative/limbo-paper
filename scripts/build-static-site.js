@@ -84,6 +84,14 @@ function renderPage(locale, outputPath) {
           </div>`,
     )
     .join("\n          ");
+  const pricingItems = t.pricing.items
+    .map(
+      (item) => `<div class="price-card">
+              <span class="price-name">${escapeHtml(item.name)}</span>
+              <strong class="price-value">${escapeHtml(item.price)}</strong>
+            </div>`,
+    )
+    .join("\n            ");
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -212,6 +220,21 @@ function renderPage(locale, outputPath) {
         </div>
         <div class="process-panel reveal" aria-label="${escapeHtml(t.accessibility.productionProcess)}">
           ${productionSteps}
+        </div>
+      </section>
+
+      <section class="pricing-section dark-section" id="prezzi" aria-labelledby="pricing-title">
+        <div class="pricing-inner reveal">
+          <p class="eyebrow">${escapeHtml(t.pricing.eyebrow)}</p>
+          <h2 id="pricing-title">${escapeHtml(t.pricing.title)}</h2>
+          <div class="pricing-grid">
+            ${pricingItems}
+          </div>
+          <div class="promo-card">
+            <span class="promo-label">${escapeHtml(t.pricing.promo.label)}</span>
+            <strong class="promo-name">${escapeHtml(t.pricing.promo.name)}</strong>
+            <span class="promo-value">${escapeHtml(t.pricing.promo.price)}</span>
+          </div>
         </div>
       </section>
 
