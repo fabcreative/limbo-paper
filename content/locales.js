@@ -132,7 +132,7 @@ const locales = {
       ],
       promo: {
         label: "Promo",
-        name: "Confezione da 4 rotoli di carta",
+        name: "Confezione da 4 fondali",
         price: "€200",
       },
     },
@@ -238,7 +238,7 @@ const locales = {
       ],
       promo: {
         label: "Promo",
-        name: "Pack of 4 rolls of paper",
+        name: "Pack of 4 backdrops",
         price: "€200",
       },
     },
@@ -344,7 +344,7 @@ const locales = {
       ],
       promo: {
         label: "Promo",
-        name: "Pack de 4 rollos de papel",
+        name: "Pack de 4 fondos",
         price: "€200",
       },
     },
@@ -450,7 +450,7 @@ const locales = {
       ],
       promo: {
         label: "促销",
-        name: "4 卷纸套装",
+        name: "4 卷背景纸套装",
         price: "€200",
       },
     },
